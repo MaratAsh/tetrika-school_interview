@@ -52,4 +52,4 @@ def main(skip_latin=True):
 if __name__ == "__main__":
 	logging.getLogger().setLevel(logging.INFO)
 
-	main()
+	main(skip_latin=False)
